@@ -139,7 +139,7 @@ if __name__ == "__main__":
         [" "," ", " "],
     ]
     simbolo = ["X","O"] # Define o símbolo para o jogador
-    jogador = 1        # 0 para o primeiro jogador, 1 para o segundo jogador
+    jogador = 0        # 0 para o primeiro jogador, 1 para o segundo jogador
     ganhador = verificaGanhador(tabuleiro)
     
     # Bloquear dois espaços aleatórios
